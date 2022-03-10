@@ -121,6 +121,8 @@ def days_to_units(no_of_days):
     print(no_of_days > 0)  ---------> # it display weather condition is true or false (operates boolean datatype)
     if no_of_days > 0:
         return f"{no_of_days} days are  {no_of_days * calculate_to_second }  {name_of_units}"
+    elif no_of_days == 0:
+        return "you have entered zero value"    
     else:
         return "return also give same result"
 
