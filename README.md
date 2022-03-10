@@ -107,5 +107,34 @@ it does give exact value so use casting for that
 
 <img width="914" alt="image" src="https://user-images.githubusercontent.com/99127429/157707865-2366b280-bccc-486b-af19-ce70387779fd.png">
 
+## Conditions(if else) & boolean data type
+
+```
+calculate_to_second = 24 * 60 * 60
+name_of_units = "seconds"
+user_input = input("enter value here:\n")
+user_input_number = int(user_input)
+print(user_input)
+
+
+def days_to_units(no_of_days):
+    if no_of_days > 0:
+        return f"{no_of_days} days are  {no_of_days * calculate_to_second }  {name_of_units}"
+    else:
+        return "return also give same result"
+
+
+my_var = days_to_units(user_input_number)
+print(my_var)
+```
+
+
+
+
+
+
+
+
+
 
 
