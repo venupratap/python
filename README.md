@@ -165,6 +165,50 @@ else:
     print("its not ant integer number")
 
 ```
+## clean up our code
+```
+calculate_to_second = 24 * 60 * 60
+name_of_units = "seconds"
+
+
+def days_to_units(no_of_days):
+    condition_check = no_of_days > 0
+    print(type(condition_check))
+    if no_of_days > 0:
+        return f"{no_of_days} days are  {no_of_days * calculate_to_second }  {name_of_units}"
+    elif no_of_days == 0:
+        return "you have entered zero value"
+    else:
+        return "return also give same result"
+
+
+user_input = input("enter value here:\n")
+
+
+def validate_excute():
+    if user_input.isdigit():
+        user_input_number = int(user_input)
+        print(user_input)
+        my_var = days_to_units(user_input_number)
+        print(my_var)
+    else:
+        print("its not ant integer number")
+
+
+validate_excute()
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
