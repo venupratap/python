@@ -128,6 +128,12 @@ def days_to_units(no_of_days):
 my_var = days_to_units(user_input_number)
 print(my_var)
 ```
+<img width="628" alt="image" src="https://user-images.githubusercontent.com/99127429/157712820-4e5c8330-0230-41f0-ab44-7eea3ac1bcd1.png">
+
+it display type of class (ex: int, string, boolean)
+
+![image](https://user-images.githubusercontent.com/99127429/157713496-2afca40e-518a-46e2-9b15-f5905bf0f0ed.png)
+
 
 
 
