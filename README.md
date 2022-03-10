@@ -65,5 +65,15 @@ days_to_units(20, "good")
 days_to_units(30, "wow!")
 ```
 
+## scope
+A variable is avilable only inside the region it is created \
+Global scope = variable avilable with in any scope \
+Local scope = variable created inside the function \
+
+ex: \
+no_of_units -----> global scope \
+no_of_days -----> local scope \
+
+## user input
 
 
