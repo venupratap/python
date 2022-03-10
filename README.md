@@ -136,6 +136,47 @@ it display type of class (ex: int, string, boolean)
 
 <img width="426" alt="image" src="https://user-images.githubusercontent.com/99127429/157713829-a3b03f7d-acfe-45bc-8c18-886b27814814.png">
 
+## More user_input validation
+```
+calculate_to_second = 24 * 60 * 60
+name_of_units = "seconds"
+
+
+def days_to_units(no_of_days):
+    condition_check = no_of_days > 0
+    print(type(condition_check))
+    if no_of_days > 0:
+        return f"{no_of_days} days are  {no_of_days * calculate_to_second }  {name_of_units}"
+    elif no_of_days == 0:
+        return "you have entered zero value"
+    else:
+        return "return also give same result"
+
+
+user_input = input("enter value here:\n")
+
+
+if user_input.isdigit():
+    user_input_number = int(user_input)
+    print(user_input)
+    my_var = days_to_units(user_input_number)
+    print(my_var)
+else:
+    print("its not ant integer number")
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
