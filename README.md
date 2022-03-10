@@ -85,3 +85,27 @@ user_input = input("enter value here:\n")
 print(user_input)
 ```
 
+## Function with return values
+A function can return data as a result \
+```
+calculate_to_second = 24 * 60 * 60
+name_of_units = "seconds"
+user_input = input("enter value here:\n")
+print(user_input)
+
+
+def days_to_units(no_of_days):
+    return f"{no_of_days} days are  {no_of_days * calculate_to_second }  {name_of_units}"  ------> # Function is excuted
+
+
+my_var = days_to_units(user_input) -----> # return value is assigned to variable
+print(my_var) -----> # variable value is print to standerd output
+```
+![image](https://user-images.githubusercontent.com/99127429/157707050-01990d48-8676-41cc-a31e-adfb22ea5ac0.png)
+
+it does give exact value so use casting for that 
+
+<img width="914" alt="image" src="https://user-images.githubusercontent.com/99127429/157707865-2366b280-bccc-486b-af19-ce70387779fd.png">
+
+
+
