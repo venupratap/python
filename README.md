@@ -36,5 +36,19 @@ print(f"20 days are  {20 * calculate_to_second }  {name_of_units}")
 ```
 ## Functions
 functions are mainly used to avoid repeating the same logic \
-a function is defind using def key word
+a function is defind using def key word \
+Block of code (code inside def function) only run when its called \
+```
+calculate_to_second = 24 * 60 * 60
+name_of_units = "seconds"
+
+
+def days_to_units():
+    print(f"20 days are  {20 * calculate_to_second }  {name_of_units}")
+    print("hello")
+
+days_to_units() -----> #calling the function
+```
+
+
 
