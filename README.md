@@ -132,7 +132,8 @@ print(my_var)
 
 it display type of class (ex: int, string, boolean)
 
-![image](https://user-images.githubusercontent.com/99127429/157713496-2afca40e-518a-46e2-9b15-f5905bf0f0ed.png)
+<img width="426" alt="image" src="https://user-images.githubusercontent.com/99127429/157713829-a3b03f7d-acfe-45bc-8c18-886b27814814.png">
+
 
 
 
