@@ -34,3 +34,7 @@ calculate_to_second = 24 * 60 * 60
 name_of_units = "seconds"
 print(f"20 days are  {20 * calculate_to_second }  {name_of_units}")
 ```
+## Functions
+functions are mainly used to avoid repeating the same logic \
+a function is defind using def key word
+
