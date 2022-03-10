@@ -39,11 +39,11 @@ functions are mainly used to avoid repeating the same logic \
 a function is defind using def key word \
 Block of code (code inside def function) only run when its called \
 ```
-calculate_to_second = 24 * 60 * 60
+calculate_to_second = 24 * 60 * 60  ------> define variables
 name_of_units = "seconds"
 
 
-def days_to_units():
+def days_to_units():  ----------> # defind the funtion
     print(f"20 days are  {20 * calculate_to_second }  {name_of_units}")
     print("hello")
 
