@@ -72,8 +72,16 @@ Local scope = variable created inside the function \
 
 ex: \
 no_of_units -----> global scope \
-no_of_days -----> local scope \
+no_of_days -----> local scope 
 
 ## user input
 
+To ask user for input \
+python stops excuting when it comes to the input() \
+
+input() is a built-in function provided by python itself \
+```
+user_input = input("enter value here:\n")
+print(user_input)
+```
 
