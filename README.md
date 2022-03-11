@@ -198,6 +198,32 @@ def validate_excute():
 validate_excute()
 ```
 ## Nested if...else
+```
+calculate_to_second = 24 * 60 * 60
+name_of_units = "seconds"
+
+
+def days_to_units(no_of_days):
+    return f"{no_of_days} days are  {no_of_days * calculate_to_second }  {name_of_units}"
+
+
+user_input = input("enter value here:\n")
+
+
+def validate_execute():
+    if user_input.isdigit():
+        user_input_number = int(user_input)
+        if user_input_number > 0:
+            my_var = days_to_units(user_input_number)
+            print(my_var)
+        elif user_input_number == 0:
+            print("you have entered zero value")
+    else:
+        print("its not ant integer number")
+
+
+validate_execute()
+```
 
 
 
