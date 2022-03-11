@@ -228,6 +228,33 @@ validate_execute()
 ## Error handling with try and expect/catch
 converting if else statements into try cache 
 
+```
+calculate_to_second = 24 * 60 * 60
+name_of_units = "seconds"
+
+
+def days_to_units(no_of_days):
+    return f"{no_of_days} days are  {no_of_days * calculate_to_second }  {name_of_units}"
+
+
+user_input = input("enter value here:\n")
+
+
+def validate_execute():
+    try:
+        user_input_number = int(user_input)
+        if user_input_number > 0:
+            my_var = days_to_units(user_input_number)
+            print(my_var)
+        elif user_input_number == 0:
+            print("you have entered zero value")
+    except ValueError:
+        print("its not ant integer number")
+
+
+validate_execute()
+```
+
 
 ## while loops
 To execute logic multiple times \
@@ -239,6 +266,10 @@ while loop execute set of statement as long as condition is true
 
 we can mention like below also
 ![image](https://user-images.githubusercontent.com/99127429/157870851-b3c76d18-0cbe-48cb-a114-e936b6d8f5c6.png)
+
+## list and for loops
+List is used to store multiple datatypes in a single variable \
+A list can contain several data types
 
 
 
