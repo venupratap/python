@@ -225,6 +225,16 @@ def validate_execute():
 validate_execute()
 ```
 
+## Error handling with try and expect/catch
+converting if else statements into try cache 
+
+
+## while loops
+To execute logic multiple times \
+
+while loop execute set of statement as long as condition is true
+
+
 
 
 
