@@ -235,6 +235,8 @@ To execute logic multiple times \
 while loop execute set of statement as long as condition is true
 
 ## Let user execute the program
+<img width="541" alt="image" src="https://user-images.githubusercontent.com/99127429/157870075-82867cd9-baf3-421d-ba61-bf6dc69ba53a.png">
+
 
 
 
