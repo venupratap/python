@@ -237,6 +237,10 @@ while loop execute set of statement as long as condition is true
 ## Let user execute the program
 <img width="541" alt="image" src="https://user-images.githubusercontent.com/99127429/157870075-82867cd9-baf3-421d-ba61-bf6dc69ba53a.png">
 
+we can mention like below also
+![image](https://user-images.githubusercontent.com/99127429/157870851-b3c76d18-0cbe-48cb-a114-e936b6d8f5c6.png)
+
+
 
 
 
