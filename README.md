@@ -302,7 +302,7 @@ while user_input != "exit":
         
 ```
 
-## syntax of list
+## syntax of list ------->(list is one of data type)
 
 ```
 my_list = ["jan", "feb", "march"]
@@ -312,6 +312,9 @@ print(my_list)
 print(my_list[3])
 
 ```
+
+## Set ----> another data type
+ set is nothing but a list data type but not allowed duplicate values
 
 
 
