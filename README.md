@@ -385,6 +385,8 @@ user_input = input("enter values here:\n")
 days_and_units = user_input.split(":")
 print(days_and_units)
 days_to_units_dictionary = {"days": days_and_units[0], "hours": days_and_units[1]}
+print(days_to_units_dictionary["days"]) # --------> if we enter key it will dispaly value in the output
+print(days_to_units_dictionary["hours"])
 print(days_to_units_dictionary)
 
 ```
