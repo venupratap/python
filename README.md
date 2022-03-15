@@ -316,6 +316,42 @@ print(my_list[3])
 ## Set ----> another data type
  set is nothing but a list data type but not allowed duplicate values
 
+<img width="428" alt="image" src="https://user-images.githubusercontent.com/99127429/158377918-dfe49e8a-6b7c-4cb6-8738-d62e65ba10f9.png">
+
+```
+calculate_to_second = 24 * 60 * 60
+name_of_units = "seconds"
+
+
+def days_to_units(no_of_days):
+    return f"{no_of_days} days are  {no_of_days * calculate_to_second}  {name_of_units}"
+
+
+def validate_execute():
+    try:
+        user_input_number = int(no_of_days_element)
+        if user_input_number > 0:
+            my_var = days_to_units(user_input_number)
+            print(my_var)
+        elif user_input_number == 0:
+            print("you have entered zero value")
+    except ValueError:
+        print("its not ant integer number")
+
+
+user_input = ""
+while user_input != "exit":
+    user_input = input("enter value here: \n")
+    list_of_days = user_input.split(", ")
+    print(list_of_days)
+    print(set(list_of_days))
+    print(type(list_of_days))
+    print(type(set(list_of_days)))
+    for no_of_days_element in set(list_of_days):
+        validate_execute()
+        
+ ```       
+
 
 
 
