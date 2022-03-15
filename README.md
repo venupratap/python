@@ -363,11 +363,33 @@ set is unorderd and unchangeble \
 
 ## Built in fnctions
 
+each datatype has its own built in function whcih are useful or make sense only for this datatype \
+
 standalone built in function \
 print() ---> print to standered output device \
 input() ---> ask user for input \
 set() ----> return a new set ---> convert list into set \
 int() ----> convert value into integer number \
+
+"2","3".split() ----> is also a built in function \
+
+## Dictionary datatype
+
+- are used to store values in key:value pair, \
+- is a collection which doesn't allow dupicate values \
+
+![image](https://user-images.githubusercontent.com/99127429/158404010-a7dfc888-a8e4-48b3-9c8e-850a4d79b386.png)
+
+```
+user_input = input("enter values here:\n")
+days_and_units = user_input.split(":")
+print(days_and_units)
+days_to_units_dictionary = {"days": days_and_units[0], "hours": days_and_units[1]}
+print(days_to_units_dictionary)
+
+```
+
+
 
 
 
