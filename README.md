@@ -302,6 +302,17 @@ while user_input != "exit":
         
 ```
 
+## syntax of list
+
+```
+my_list = ["jan", "feb", "march"]
+print(my_list[2])
+my_list.append("April")
+print(my_list)
+print(my_list[3])
+
+```
+
 
 
 
