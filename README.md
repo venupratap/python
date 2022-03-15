@@ -352,44 +352,13 @@ while user_input != "exit":
         
  ```       
 
+## Basic set operations and syntax
+set is unorderd and unchangeble \
 
+1) items in the set don't have specific order
+2) items can't refered by an index
+3) items can't be changed only added/removed
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="367" alt="image" src="https://user-images.githubusercontent.com/99127429/158382206-08a6c452-cdb7-428b-8741-120fe12fdd01.png">
 
 
