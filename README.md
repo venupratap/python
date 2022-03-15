@@ -272,6 +272,33 @@ List is used to store multiple datatypes in a single variable \
 A list can contain several data types
 
 <img width="525" alt="image" src="https://user-images.githubusercontent.com/99127429/158111120-1b4b9dbb-1d76-4fa3-8cd4-1b8b3316cc40.png">
+```
+calculate_to_second = 24 * 60 * 60
+name_of_units = "seconds"
+
+
+def days_to_units(no_of_days):
+    return f"{no_of_days} days are  {no_of_days * calculate_to_second }  {name_of_units}"
+
+
+def validate_execute():
+    try:
+        user_input_number = int(no_of_days_element)
+        if user_input_number > 0:
+            my_var = days_to_units(user_input_number)
+            print(my_var)
+        elif user_input_number == 0:
+            print("you have entered zero value")
+    except ValueError:
+        print("its not ant integer number")
+
+
+user_input = ""
+while user_input != "exit":
+    user_input = input("enter value here: \n")
+    for no_of_days_element in user_input.split(", "):
+        validate_execute()
+```
 
 
 
