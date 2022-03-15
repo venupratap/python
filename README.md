@@ -361,4 +361,18 @@ set is unorderd and unchangeble \
 
 <img width="367" alt="image" src="https://user-images.githubusercontent.com/99127429/158382206-08a6c452-cdb7-428b-8741-120fe12fdd01.png">
 
+## Built in fnctions
+
+standalone built in function \
+print() ---> print to standered output device \
+input() ---> ask user for input \
+set() ----> return a new set ---> convert list into set \
+int() ----> convert value into integer number \
+
+
+
+
+
+
+
 
