@@ -391,6 +391,27 @@ print(days_to_units_dictionary)
 
 ```
 
+## Modules
+
+- logically organised your python code and \
+- Module should contain related code \
+- A module is just a .py file \
+- using module we can refer one .py file in another .py file \
+
+## Create a module and import statement
+- create another file called helper.py in that we mention all functions \
+- import functions in helper.py in main function
+ex:
+- import helper
+- from helper import <function name>
+- from helper import *  
+- import helper as h ----> rename module with h here
+    
+    note: we can import exsiting python modules
+    
+
+
+
 
 
 
