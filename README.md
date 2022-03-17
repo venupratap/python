@@ -409,6 +409,27 @@ ex:
     
     note: we can import exsiting python modules
     
+    
+## sample excercise for count_down
+    
+    ````
+    import datetime
+
+user_input = input("enter goal with date:\n")
+days_and_goal = user_input.split(':')
+goal = days_and_goal[0]
+date = days_and_goal[1]
+
+goal_date = datetime.datetime.strptime(date, '%d-%m-%Y')
+today_date = datetime.datetime.today()
+
+
+print(user_input.split(':'))
+print(goal)
+countdown_days = today_date - goal_date
+print(f"you have only  {countdown_days} to complete you goal")
+    ```
+    
 
 
 
