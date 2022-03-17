@@ -403,17 +403,13 @@ print(days_to_units_dictionary)
 - import functions in helper.py in main function
 ex:
 - import helper
-- from helper import <function name>
-- from helper import *  
+- from helper import *
 - import helper as h ----> rename module with h here
-    
-    note: we can import exsiting python modules
-    
-    
-## sample excercise for count_down
-    
-    ````
-    import datetime
+
+## sample excercise for count_down days
+
+```
+import datetime
 
 user_input = input("enter goal with date:\n")
 days_and_goal = user_input.split(':')
@@ -428,7 +424,16 @@ print(user_input.split(':'))
 print(goal)
 countdown_days = today_date - goal_date
 print(f"you have only  {countdown_days} to complete you goal")
-    ```
+```
+    
+
+
+    
+    
+    
+    
+    
+
     
 
 
