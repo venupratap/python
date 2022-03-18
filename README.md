@@ -425,6 +425,13 @@ print(goal)
 countdown_days = today_date - goal_date
 print(f"you have only  {countdown_days} to complete you goal")
 ```
+
+## Differnece between module and package
+
+- module is nothing but a python file
+- package is collection of modules
+- package must include __include__.py file. this file differentiate package from a directory.
+- 
     
 
 
