@@ -431,6 +431,23 @@ print(f"you have only  {countdown_days} to complete you goal")
 - module is nothing but a python file
 - package is collection of modules
 - package must include __include__.py file. this file differentiate package from a directory.
+
+
+## python code for love shape
+```
+from turtle import *
+color("red")
+begin_fill()
+pensize(10)
+left(50)
+forward(133)
+circle(50, 200)
+right(140)
+circle(50, 200)
+forward(133)
+end_fill()
+```
+
 - 
     
 
