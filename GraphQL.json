@@ -1,0 +1,25 @@
+{
+  "data": {
+    "repository": {
+      "pullRequest": {
+        "reviews": {
+          "nodes": [
+            {
+              "body": "changes are good"
+            },
+            {
+              "body": "Re reviewed the code "
+            }
+          ]
+        },
+        "comments": {
+          "nodes": [
+            {
+              "body": "Ok Thanks"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
