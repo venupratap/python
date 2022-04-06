@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://api.github.com/repos/prathapaparna/Linux-Shell/issues/comments/1088839341",
+    "html_url": "https://github.com/prathapaparna/Linux-Shell/pull/1#issuecomment-1088839341",
+    "issue_url": "https://api.github.com/repos/prathapaparna/Linux-Shell/issues/1",
+    "id": 1088839341,
+    "node_id": "IC_kwDOGzBpL85A5l6t",
+    "user": {
+      "login": "prathapaparna",
+      "id": 99127429,
+      "node_id": "U_kgDOBeiQhQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99127429?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/prathapaparna",
+      "html_url": "https://github.com/prathapaparna",
+      "followers_url": "https://api.github.com/users/prathapaparna/followers",
+      "following_url": "https://api.github.com/users/prathapaparna/following{/other_user}",
+      "gists_url": "https://api.github.com/users/prathapaparna/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/prathapaparna/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/prathapaparna/subscriptions",
+      "organizations_url": "https://api.github.com/users/prathapaparna/orgs",
+      "repos_url": "https://api.github.com/users/prathapaparna/repos",
+      "events_url": "https://api.github.com/users/prathapaparna/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/prathapaparna/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2022-04-05T15:08:41Z",
+    "updated_at": "2022-04-05T15:08:41Z",
+    "author_association": "OWNER",
+    "body": "Ok Thanks",
+    "reactions": {
+      "url": "https://api.github.com/repos/prathapaparna/Linux-Shell/issues/comments/1088839341/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]
